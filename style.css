@@ -1,0 +1,62 @@
+html{
+    height:100%;
+}
+body{
+    height:100%;
+    margin:0px;
+    display: flex;
+    background-image: url(Icons/background.jpg);
+    background-position: center;
+}
+#container{
+    margin: auto;
+    padding: 0px 20px;
+}
+/*Panels*/
+.Panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    margin: 10px;
+}
+#Icons{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+/*Tiles*/
+.tile{
+    padding:10px;
+    margin:10px;
+    background-color:#E5E6E4;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    transition: box-shadow 0.2s ease-in-out;
+}
+.tile:hover{
+    box-shadow: 0px 0px 10px 2px #00D2FF;
+}
+.searchBar{
+    display: flex;
+    margin: 15px 0px;
+}
+/*Images in Icon Tiles*/
+.icon a img{
+  width:48px;
+  height:48px;
+}
+/*Images in Search Tiles*/
+.searchBar a img{
+  width:64px;
+  height:64px;
+}
+/*Search Bars*/
+input{
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #00D2FF;
+    margin: auto 10px;
+    background-color: #FAFAFA;
+    color: #231F20;
+    width: 40px;
+}
