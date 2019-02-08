@@ -5,9 +5,10 @@ body{
     height:100%;
     margin:0px;
     display: flex;
-    background-image: url(Icons/background.jpg);
-    background-position: center;
+    background-image: url(Icons/bg.jpg);
+	background-size: cover;
 }
+
 #container{
     margin: auto;
     padding: 0px 20px;
@@ -32,7 +33,7 @@ body{
     background-color:#ccffff;
     box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
     transition: box-shadow 0.2s ease-in-out;
-	opacity: 0.7;
+	opacity: 0.9;
 }
 .tile:hover{
     box-shadow: 0px 0px 10px 2px #00D2FF;
@@ -48,8 +49,8 @@ body{
 }
 /*Images in Search Tiles*/
 .searchBar a img{
-  width:64px;
-  height:64px;
+  width:70px;
+  height:70px;
 }
 /*Search Bars*/
 input{
