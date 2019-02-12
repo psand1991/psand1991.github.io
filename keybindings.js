@@ -14,7 +14,7 @@ shortcut.add("Alt+d",function() {
 	window.location.href = "https://drive.google.com/";
 });
 shortcut.add("Alt+a",function() {
-	window.location.href = "https://wiki.archlinux.com/";
+	window.location.href = "https://wiki.archlinux.org/";
 });
 shortcut.add("Alt+p",function() {
 	window.location.href = "https://photos.google.com/";
