@@ -1,15 +1,15 @@
-shortcut.add("r",function() {
+shortcut.add("Alt+r",function() {
 	window.location.href = "https://www.reddit.com/";
 });
-shortcut.add("g",function() {
+shortcut.add("Alt+g",function() {
 	window.location.href = "https://github.com/";
 });
-shortcut.add("y",function() {
+shortcut.add("Alt+y",function() {
 	window.location.href = "https://youtube.com/";
 });
-shortcut.add("m",function() {
+shortcut.add("Alt+m",function() {
 	window.location.href = "https://gmail.com/";
 });
-shortcut.add("d",function() {
+shortcut.add("Alt+d",function() {
 	window.location.href = "https://drive.google.com/";
 });
