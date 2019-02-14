@@ -7,6 +7,7 @@ body{
     display: flex;
     background-image: url(Icons/bg.jpg);
 	background-size: cover;
+	background-position: center center;
 }
 
 #container{
@@ -49,7 +50,7 @@ body{
 }
 .icon:hover{
 	transform: scale(1.05);
-	box-shadow: 0px 0px 10px 2px #00D2FF;
+	box-shadow: 0px 0px 10px 2px #60B3C4;
 }
 
 /*Search Bars*/
