@@ -24,13 +24,13 @@ body{
 #Icons{
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: flex-start;
+    align-content: space-evenly;
 }
 /*Tiles*/
 .tile{
     padding:10px;
     margin:10px;
-    background-color:#30577e;
+    background-color:#4B5D71;
     box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
     transition: box-shadow 0.2s ease-in-out;
 	border-radius: 9px;
@@ -59,7 +59,7 @@ input{
     border: 1px solid #808080;
 	border-radius: 9px;
     margin: auto 10px;
-    background-color: #d3d9de;
+    background-color: #1A252B;
     color: #231F20;
     width: 40px;
 	font-weight: bold;
@@ -67,4 +67,8 @@ input{
     font-size: 1.75vw;
 	text-align: center;
 	outline:none;
+	caret-color: transparent !important;
+}
+input, select, textarea{
+    color: #808080;
 }
