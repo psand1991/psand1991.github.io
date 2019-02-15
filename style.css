@@ -73,3 +73,21 @@ input{
 input, select, textarea{
     color: #808080;
 }
+
+#clock {
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+    position: relative;
+    color: #60B3C4;
+    text-shadow: 0 0 3vh rgba(10, 175, 230, 1),  0 0 3vh rgba(10, 175, 230, 0);
+}
+.time {
+		letter-spacing: 0.05em;
+		font-size: 3vh;
+		padding: 5px 0;
+	}
+.date {
+		letter-spacing: 0.1em;
+		font-size: 3vh;
+	}
+
