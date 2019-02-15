@@ -19,3 +19,12 @@ shortcut.add("Alt+a",function() {
 shortcut.add("Alt+p",function() {
 	window.location.href = "https://photos.google.com/";
 });
+shortcut.add("Alt+s",function() {
+	window.location.href = "http://www.duckduckgo.com/";
+});
+shortcut.add("Alt+o",function() {
+	window.location.href = "https://stackoverflow.com/";
+});
+shortcut.add("Alt+w",function() {
+	window.location.href = "https://wikipedia.org/";
+});
