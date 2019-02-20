@@ -28,3 +28,33 @@ shortcut.add("Alt+o",function() {
 shortcut.add("Alt+w",function() {
 	window.location.href = "https://wikipedia.org/";
 });
+shortcut.add("Alt+Shift+r",function() {
+	document.getElementById("tbox").value = "!r ";
+});
+shortcut.add("Alt+Shift+g",function() {
+	document.getElementById("tbox").value = "!gh ";
+});
+shortcut.add("Alt+Shift+y",function() {
+	document.getElementById("tbox").value = "!yt ";
+});
+shortcut.add("Alt+Shift+m",function() {
+	document.getElementById("tbox").value = "!gmail ";
+});
+shortcut.add("Alt+Shift+d",function() {
+	document.getElementById("tbox").value = "!drive ";
+});
+shortcut.add("Alt+Shift+a",function() {
+	document.getElementById("tbox").value = "!aw ";
+});
+shortcut.add("Alt+Shift+p",function() {
+	document.getElementById("tbox").value = "!gphotos ";
+});
+shortcut.add("Alt+Shift+s",function() {
+	document.getElementById("tbox").value = "!duckduckgo ";
+});
+shortcut.add("Alt+Shift+o",function() {
+	document.getElementById("tbox").value = "!stackoverflow ";
+});
+shortcut.add("Alt+Shift+w",function() {
+	document.getElementById("tbox").value = "!wikipedia ";
+});

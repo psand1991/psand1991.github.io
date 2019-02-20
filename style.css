@@ -73,14 +73,14 @@ input{
 }
 ::placeholder{
 	color: black;
-	font-family: 'Share Tech Mono', monospace;
+	font-family: 'Open Sans', sans-serif;
 }
 input, select, textarea{
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #clock {
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Space Mono', monospace;
     text-align: center;
 	font-weight: bold;
     position: relative;
@@ -89,11 +89,11 @@ input, select, textarea{
 }
 .time {
 		letter-spacing: 0.05em;
-		font-size: 3vh;
+		font-size: 3.5vh;
 		padding: 5px 0;
 	}
 .date {
 		letter-spacing: 0.1em;
-		font-size: 3vh;
+		font-size: 3.5vh;
 	}
 
