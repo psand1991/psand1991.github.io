@@ -44,7 +44,7 @@ shortcut.add("Alt+Shift+d",function() {
 	document.getElementById("tbox").value = "!drive ";
 });
 shortcut.add("Alt+Shift+a",function() {
-	document.getElementById("tbox").value = "!aw ";
+	document.getElementById("tbox").value = "!a ";
 });
 shortcut.add("Alt+Shift+p",function() {
 	document.getElementById("tbox").value = "!gphotos ";
