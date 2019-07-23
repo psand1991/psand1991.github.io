@@ -1,5 +1,5 @@
 shortcut.add("Alt+r",function() {
-	window.location.href = "https://www.reddit.com/";
+	window.location.href = "https://rctc.learn.minnstate.edu/";
 });
 shortcut.add("Alt+g",function() {
 	window.location.href = "https://github.com/";
@@ -27,6 +27,9 @@ shortcut.add("Alt+o",function() {
 });
 shortcut.add("Alt+w",function() {
 	window.location.href = "https://wikipedia.org/";
+});
+shortcut.add("Alt+i",function() {
+	window.location.href = "http://192.67.22.47:8088";
 });
 shortcut.add("Alt+Shift+r",function() {
 	document.getElementById("tbox").value = "!r ";
